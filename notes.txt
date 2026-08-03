@@ -1,0 +1,144 @@
+Application Server - The Server which has application hosted is called application Server
+
+Database Server - The server which has database installed, the server where data is stored is called database server
+
+
+Webserver - Which takes the request from client and redirect it to Application server is called web server
+
+IP - Internet protocol - unique Identification for device in the network.
+
+Hostname - Name of the server
+
+local DNS Path - C:\Windows\System32\drivers\etc
+
+Load Balancer - Which distribute the traffic between  multiple servers
+
+Firewall - deny unauthorized access
+
+
+
+http - hypertext transfer protocol  - 80   - web request - client
+https - hypertext transfer protocol secure - 443
+RDP - Remote Desktop protocol  - 3389 - Desktop Server connection - client
+SSH - Secure shell - 22 - Linux server
+
+ 1 to 1023       : well Known port number
+ 1024 to 41591   : Registered Port numbers
+ 41592 to 655535 : Dynamic port numbers.
+
+
+
+ Q. What is AWS ?
+
+    - Aws Provides Infrastructure as service.
+
+
+virtual Machine(VM) , Physical Machine, Host Machine, infrastructure, Data Center, Firewall, DNS,
+ Protocol, Virtualization
+
+  - Virtualization - Virtualization is technique that create multiple virtual machine(VM) from one Host Machine
+
+ - Host Machine - The physical Computer that runs virtual machines
+ 
+ - Virtual Machine(VM) - A software-based computer
+
+ - Infrastructure - Servers, Storage, Networking, Databases and other Hardware resources.
+
+ - Data Center - A building where servers and cloud resources are stored.
+ 
+ - DNS(Domain Name System) - Converts a website name(hostname) to IP address and vice versa.
+
+ - Protocol - Rules used for communication between devices.
+
+ - Hypervisor - software that creates and manages virtual machines
+
+
+
+ Aws
+
+ - Aws stands for Amazon Web services
+ - Aws is Public Cloud Computing Platform provided by Amazon.
+ - Aws was launched in 2006.
+ - It provides 200+ cloud services over the internet.
+ - AWS allows users to use resources without buying physical hardware.
+ - AWS follows the pay-as-you-GO pricing model.
+ - It is one the world's largest cloud service providers.
+ - AWS is used by startups, small business, and large enterprises.
+
+ Features of AWS
+
+ - Easy to use
+ - Highly secure
+ - Scalable (increase and decrease resource anytime)
+ - Reliable and Highly Available
+ - Global infrastructure
+ - Cost Effective
+ - Fast Deployment
+ - Automatic Backup Options
+ - High Performance
+ - Disaster Recovery support
+
+
+                        Cloud Deployment Types
+
+ 1. Public 
+
+  - Infrastructure is owned by a cloud Provider.
+  - Resources are shared among many customers
+  - Accessible through the internet.
+  - Cost is low because of shared infrastructure.
+  - Best for startups, websites, and testing.
+  - e.g. - AWS, Azure, GCP
+
+ 2. Private Cloud
+         
+  - Infrastructure is dedicated to single organization.
+  - Can be hosted in the company's own data center or by a cloud provider.
+  - Offers better security and control.
+  - e.g. - Oracle, IBM 
+
+ 3. Hybrid Cloud
+
+  - Combination of public cloud and private cloud.
+  - Data and application can move between both environments.
+  - Sensitive data stays in private cloud, while public workloads runs in public cloud.
+  
+ 4. Multi-cloud(Latest Model)
+
+ - Uses cloud services from multiple cloud providers.
+ - Companies choose the best service from each provider.
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
