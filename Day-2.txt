@@ -1,0 +1,72 @@
+  AWS Management Methods
+
+  - AWS Management Console(Web Interface)
+  - AWS CLI(Command Line Interface)
+  - AWS SDK(Programming Languages)
+  - AWS CloudShell
+
+
+Cloud Computing
+
+ - Instead of computing on local machine/on-premises, now you are doing computing in remote location(cloud) that is called cloud computing.
+
+
+ Service Models
+
+ - Infrastructure as a service (IAAS) - 
+
+ - Platform as a service (PAAS) - 
+
+ - Software as a service (SAAS)
+
+
+ AWS
+
+------------
+
+
+ VM's = Instances
+ EC2 = Elastic compute cloud
+ EC2 is a AWS service where you can create virtual machines.
+
+
+ 
+                     Elasticity
+
+ Increasing and decreasing the number of EC2 instances based on the load is called Elasticity.
+ 
+ Elasticity is short term
+
+ Elasticity can be achieved in AWS using Auto-scaling.
+
+
+ Auto-scaling = scale Out and scale in
+                 
+      scale Out = adding / increasing
+      scale In = removing / decreasing
+
+
+- Use the same type of instances in auto-scaling
+- Elasticity is also called as Horizontal scaling
+
+         Scalability
+
+
+Increasing and decreasing capacity of the server is called scalability
+
+ Scalability = scale UP and scale Down
+
+ Scalability can be achieved in AWS using (By changing the instance type)
+
+ Instance Type = CPU and memory  
+
+ Scalability is Long-Term
+
+ Scalability is also called as vertical scaling
+
+                            High Availability
+
+ The period of time the service is available to the customer is called HA
+ The Period of time the service is not available to the customer is called Downtime
+ High Availability is measured in percentage
+  
