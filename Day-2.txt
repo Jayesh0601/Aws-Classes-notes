@@ -69,4 +69,15 @@ Increasing and decreasing capacity of the server is called scalability
  The period of time the service is available to the customer is called HA
  The Period of time the service is not available to the customer is called Downtime
  High Availability is measured in percentage
+
+Regions and Availability Zone
+ 
+ Region - A geo-Graphical area where Aws infrastructure kept.
+          e.g: - Mumbai, Hyderabad
+          code - ap-south-1, ap-south-2
+
+Availability Zone - simply a data center(AZ)
+A region has multiple AZ
+  code - ap-south-1a, ap-south-1b,ap-south-1c
+
   
