@@ -1,0 +1,33 @@
+                                                 S3
+
+ - simple storage service
+ 
+ - S3 is unlimited storage
+ 
+ - S3 is serverless
+
+ - S3 is regional 
+
+ - S3 Managed by AWS 
+
+ - S3 stores any type of files.
+
+ - S3 not executes any file such .exe, .msi etc..                                       
+
+ - S3 Supports static(only Frontend) website hosting. 
+
+ - S3 is Object Based Storage.
+ 
+
+
+                                           EBS - Elastic Block Storage(Store)
+
+
+ -  hard disk  or volumes  = EBS volume
+ -  Max size up to 64 TB
+ -  Multiple Volumes can be attached and detached.
+ -  Root Volumes always contain OS (Linux, windows)
+ -  EC2 instance has default volume, that volume is called ROOT volume.
+ -  EC2 instance can have only one ROOT volume.
+ -  EC2 instance can have multiple additional volumes.
+ -  AWS will charge based on the size of the EBS volume not based on data.
