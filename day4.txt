@@ -1,0 +1,35 @@
+                          EFS
+
+ - EFS = Elastic File System
+ - It is a managed file storage service in AWS.
+ - Multiple EC2 instances can access the same EFS at the same time.
+ - EFS uses the NFS protocol.
+ - Storage automatically scales up and down as needed.
+ - No need to manually provision storage capacity.
+ - It provides high availability and durability.
+ - Mainly used with Linux-based workloads.
+ - uses : Shared files, Web servers and containers
+  
+ 
+                           FSx
+
+ - FSx is a managed file storage service in AWS.
+ - It provides high-performance and scalable file systems.
+ - It supports different file systems for different workloads.
+ - FSx for windows File Server - for windows applications 
+ - File system x = FSx            
+
+
+                        Snow Family
+
+ - Snow family is used to move large amounts of data between on-premises and AWS.
+ - Useful when transferring data over the internet is slow or difficult.
+ - AWS provides devices to customers.
+ - You can load data onto the device and ship it to AWS.
+  
+
+ Snow Family Devices
+
+   SnowCone - small, portable device for small data transfers. (up to 8 TB)
+   Snowball Edge - Used for Large data transfer and edge computing.(Up to 100TB)
+   SnowMobile - A large truck-sized data transfer solution for extremely large amounts of data. (PB's)
