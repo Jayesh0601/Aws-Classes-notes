@@ -1,0 +1,81 @@
+ Glacier - Archive purpose Not frequently used data
+             Cheaper than S3 
+
+
+
+
+  Root User 
+
+  - The Root User account is the identity created when an AWS account is created and has complete access to the account.
+  - uses the email and password used to create the account.
+  - Has full access to AWS services and resources.
+  - Root User is not an IAM User.
+  - Should not be used for daily work.
+  - Use it only for tasks that specifically require Root User Access.
+  - Never share Root User Credentials.
+  - Keep the root user highly secure.
+  - Avoid creating Root user Access keys.
+
+
+ IAM User
+
+ - IAM manages identities and permissions.
+ - controls who can access AWS.
+ - Controls what actions they can perform.
+ - IAM is a global AWS service.
+ - IAM has no additional charge.
+ - IAM follows the principle of least privilege.
+ - username and password require to login.
+ - Usually represents an individual person.
+ 
+
+                                 MFA
+
+ - Multi-Factor Authentication
+ - MFA adds an extra layer of security by requiring another authentication factor in addition to a password.
+ - It helps protect the account if the password is compromised.
+ - MFA can be enabled both Root and IAM.
+ - AWS supports MFA options such as authenticator apps (google authenticator, Microsoft auth)
+   
+
+                             CloudFront
+
+ - CloudFront is a CDN(Content delivery Network) service provides by AWS.
+
+ - It delivers website content to users with low latency.
+ 
+ - It helps websites and applications load faster.
+
+              Edge Location
+
+ - Edge location is a location where cloudfront caches content.
+ - Edge locations are available in many locations around the world.
+ - They are usually closer to users than the origin.
+
+              Cache 
+
+ - Cache is temporarily stored content.
+ - cloudFront stores frequently requested content at edge locations.
+
+  
+             Cache Hit
+
+ - content is already available at the Edge location.
+ - CloudFront sends the content directly to the users.
+
+
+              Cache Miss
+
+ - Content is not available in the edge location cache.
+ - CloudFront requests it from the Origin.
+
+               TTL
+
+ - TTL = Time to Live
+ - TTL decides how long an object can stay cached
+ - The cache object can remain valid for the configured 1-hrs period. 
+ - After expiration, cloudfront can fetch a fresh version from the origin.
+
+                Cache validation
+
+ - Cache invalidation removes cached content before it naturally expires.
