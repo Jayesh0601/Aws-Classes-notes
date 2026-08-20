@@ -1,0 +1,241 @@
+
+                          EC2 Deep Drive
+
+EC2 is Regional
+EC2 = Elastic Compute cloud
+EC2 is a webservice from AWS that provides Resizable compute services in the cloud.
+
+Resizable = scale up/Scale Down, Scale Out/ Scale In
+
+Servers / VM = EC2 Instances
+
+750 hrs Free per month
+
+Price = Pay as you go
+
+Pay every hour
+
+
+                                     Pricing Model 
+
+ 
+1. On-Demand Instances
+
+ - Pay only for the compute capacity you use.
+ - Not upfront payment is required.
+ - No long-term contract or commitment.
+ - Billing is charged per hrs.
+ - Best for short-term , testing, development.
+
+ 2. Saving Plans
+
+ - Commit to a certain amount of usage for 1 year or 3 years
+ - Can save up to 72% compared to On-demand pricing
+ - Discounts automatically apply even if you change instance types, regions, or services
+ - Recommended by AWS for long-term workloads
+
+ 3. Reserved Instances(RI)
+
+ - Reserve EC2 capacity for 1 year or 3 years.
+ - Provides significant discount(up to 72) compared to On-Demand pricing.
+ - Best for predictable and stable workloads.
+
+ Available as: 
+
+  - Standard Reserved Instances
+  - Convertible Reserved Instances
+
+ All Upfront payment, Partial payment
+
+
+4. Spot Instances
+ 
+ - Use AWS spare (unused) EC2 capacity.
+ - can be much cheaper than on-demand instances.
+ - AWS may interrupt or terminate the instance when capacity is needed elsewhere.
+ 
+5. Dedicated instances
+
+ - EC2 instances run hardware dedicated to one customer.
+ - Hardware is isolated from other AWS customers.
+ - Provides additional security and isolation.
+ - Charge hourly.
+ - Available with On-demand, Reserved, and spot pricing models
+ 
+6. On-Demand Capacity Reservations
+
+ - Reserve EC2 capacity in a specific Availability zone.
+ - Ensures capacity is available whenever you need it.
+ - No long-term commitment is required.
+ - Useful for business-critical applications where capacity must always be available.
+
+7. Amazon EC2 Capacity Blocks for ML
+
+ - Reserve GPU instances in advance for machine learning workloads.
+ - Helps guarantee access to high-demand GPU resources.
+ - Capacity can be reserved for fixed future time periods.
+
+
+
+                              EC2 Instance Types
+
+ 1. General Purpose Instance
+ 
+  - balanced compute, Memory, Network.
+  - Best for webservers, small databases and development environments.
+  
+  Ex: t3, t4 , M6i etc...
+
+  
+ 2. Compute Optimized Instances
+ 
+  - High CPU performance
+  - Best for Gaming servers, batch processing and scientific modeling.
+  - Examples: C6i.
+
+ 3. Memory Optimized Instances
+
+  - Large amount RAM(Memory)
+  - Best for high-performance databases, real-time analytics.
+  - Examples: R7i
+
+ 4. Storage Optimized Instances
+
+ - High Speed Local storage.
+ - Best for Data warehouse, NoSQL databases, and big data Applications 
+ - Examples: l4i
+
+ 5. Accelerated Computing Instances
+
+ - Use GPUs or specialized hardware accelerators.
+ - Best for Machine Leaning, AI, Graphics rendering video processing.
+ 
+  Examples: P5, G6
+
+ 6. High-performance - HPC optimized
+
+ - high-performance processors such as complex simulations, deep learning, and visual effects rendering.
+  Examples: Hpc8a
+
+
+    Identification
+
+    i Suffix        intel
+    a suffix        AMD
+    g Suffix        Amazon Graviton
+    Mac Suffix      Apple Mac
+
+
+                        There are Mainly 2 Types of Storage:
+
+ - EBS Volume - (Elastic block Store) - permanent Storage
+ - Instance Store volume (ISV) - Temporary Storage
+
+
+ 1. EBS Volume is Network attached storage used with EC2 Instances
+ 
+  
+  permanent Storage / Persistent Storage
+
+ 2. Maximum Size - 64TB
+
+ 3. EBS is Billable
+
+   Storage size
+   IOPS
+   Throughput
+   Snapshot
+
+ Types of EBS
+
+ a) General Purpose SSD
+
+    Types gp2, gp3
+ 
+ used for 
+
+  web Servers
+  Application servers
+  small medium databases
+
+  gp2 
+
+  - Older generations SSD volume
+  - 3 IOPS per GB
+  - IOPS automictically increase with size
+    cannot manually configure IOPS
+
+  gp3
+
+  - Latest Version or better version
+  - Better performance
+  - You can manually configure IOPS.
+  - you can configure throughput also
+
+ B) Provisioned IOPS SSD
+   
+   Types
+
+       io1
+       io2
+  Used for high-performance databases
+
+  Oracle
+  MySQL
+
+ very high speed 
+ very high IOPS
+ low latency
+ supports up to 64 TB
+ configurable IOPS
+ 
+ Multi-attach feature 
+ attached max 16 EC2 instances
+
+ C) Throughput Optimized HDD
+
+  Type: 
+
+       st1
+
+ Cheaper
+ Slower than SSD
+
+ used for log Processing
+
+
+D) Cold HDD
+
+ Type
+   
+     sc1
+
+ used for less frequently accessed data.
+
+Example:  Backup, snapshot
+
+
+E) Magnetic/Standard HDD
+
+  Older generation HDD volume
+
+  rarely used now
+  Root volume and additional volume 
+  
+
+
+Instance store volume
+
+ Temporary storage directly attached to the physical server.
+
+ also called Ephemeral storage
+
+ 1. Non-Persistent storage
+
+ 2. Mostly free storage.
+ 
+ 3. Very high fast because it is physically attached to the host machine.
+
+   used for cache 
+            buffers
+  
