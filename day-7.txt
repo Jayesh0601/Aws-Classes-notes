@@ -1,0 +1,33 @@
+
+                                 AMI = Amazon Machine Image
+
+- AWS AMI stand for Amazon Machine Image.
+- AMI is template to used to launch EC2 instances.
+- AMI contains Operating system(OS), Applications, configurations, and storage settings.
+- One AMI can be used to launch multiple EC2 instances.
+- AMI is like copy of an EC2 instances.
+- snapshot is a copy of an EBS volume, while AMI is a copy of EC2 instances
+- AWS provides ready-made AMIs such as Amazon Linux, Ubuntu, RHEL, SUSE and windows server.
+- Users can create their own Custom AMI after installing software and making configurations.
+- A customized standard image used by a company is called a Golden AMI.
+- EC2 image builder can automatically create and manage AMIs.
+- AMI are reusable and can be  used again and again.
+- AMI are reginal resources(available only in the region where they are created)
+- AMI can be copied from one region to another region.
+- AMI can be shared with other AWS accounts by default, a custom AMIs is private.
+- Public AMIs can be found AWS marketplace.
+- AMI cannot be logged into directly.
+- First launch EC2 instance from the AMI, then connect to instance.
+- When an AMI created, AWS automatically creates snapshots of the all attached EBS volumes
+
+- if an EC2 instance has 2 volumes, then 2 snapshots are created during AMI creation.
+
+- AMI creation does not require stopping the EC2 instance. (recommended stopping the instances for a consistent backup)
+
+- AMI supports encryption using AWS KMS.
+- AMI supports tags for management and organization.
+- Every AMI has a unique AMI ID.
+- AMIs ID are different in different AWS regions.
+- AMIs can be used in Auto scaling groups to launch identical EC2 instances.
+- AMIs are commonly used in launch templates.
+- AMI helps in fast deployment, backup, disaster, recovery  and environment replication.
