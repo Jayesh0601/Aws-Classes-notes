@@ -31,3 +31,38 @@
 - AMIs can be used in Auto scaling groups to launch identical EC2 instances.
 - AMIs are commonly used in launch templates.
 - AMI helps in fast deployment, backup, disaster, recovery  and environment replication.
+
+
+
+                            CloudWatch 
+
+   CloudWatch is used to monitor all AWS resources(EC2, S3, Lambda, RDS etc)
+                                                
+   In Cloud watch we create Alarms to monitor AWS resources
+
+   Cloud Watch can monitor performance
+
+ Basic Monitoring = You will get data points every 5 mins [Free, Default]
+ 
+ Details monitoring = you will get data points every 1 min [Billable]
+                                   
+ In cloud watch, we create CloudWatch Alarms
+
+  Metrics(CPU, Network, Disk, Memory etc..)
+
+
+      Cloud Trail = Monitor entire AWS Environment
+
+                     Track, Monitor, record, auditing, logs etc...
+
+      Config = Monitoring the changes in AWS resources
+
+
+          AWS Support
+  
+            Basic Support (Free)
+            Developer Support
+            Business Support
+            Enterprises Support
+            Unified Operations
+
